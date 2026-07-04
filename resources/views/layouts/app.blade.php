@@ -10,7 +10,7 @@
     <meta name="author" content="Dunia Sawit">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="{{ asset('images/DuniaSawit.PNG') }}">
+    <link rel="icon" type="image/webp" href="{{ asset('images/DuniaSawit.webp') }}">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,7 +35,7 @@
                 <!-- Logo & Branding -->
                 <div class="flex-shrink-0 flex items-center">
                     <a href="{{ route('home') }}" class="flex items-center space-x-3 group">
-                        <img src="{{ asset('images/DuniaSawit.PNG') }}" alt="Logo Dunia Sawit" class="h-10 w-10 rounded-full object-cover" style="height: 40px; width: 40px; max-height: 40px; max-width: 40px; border-radius: 50%; object-fit: cover; display: block;">
+                        <img src="{{ asset('images/DuniaSawit.webp') }}" alt="Logo Dunia Sawit" class="h-10 w-10 rounded-full object-cover" style="height: 40px; width: 40px; max-height: 40px; max-width: 40px; border-radius: 50%; object-fit: cover; display: block;">
                         <span class="font-extrabold text-2xl tracking-wider bg-gradient-to-r from-white to-amber-300 bg-clip-text text-transparent">DUNIA SAWIT</span>
                     </a>
                 </div>
@@ -86,7 +86,7 @@
                 <!-- Column 1: About -->
                 <div>
                     <div class="flex items-center space-x-3 mb-6">
-                        <img src="{{ asset('images/DuniaSawit.PNG') }}" alt="Logo Dunia Sawit" class="h-8 w-8 rounded-full object-cover" style="height: 32px; width: 32px; max-height: 32px; max-width: 32px; border-radius: 50%; object-fit: cover; display: block;">
+                        <img src="{{ asset('images/DuniaSawit.webp') }}" alt="Logo Dunia Sawit" class="h-8 w-8 rounded-full object-cover" style="height: 32px; width: 32px; max-height: 32px; max-width: 32px; border-radius: 50%; object-fit: cover; display: block;">
                         <span class="font-extrabold text-xl tracking-wider text-white">DUNIA SAWIT</span>
                     </div>
                     <p class="text-sm leading-relaxed text-gray-400">
