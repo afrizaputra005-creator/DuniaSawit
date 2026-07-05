@@ -46,6 +46,7 @@
                     <a href="{{ route('prices') }}" class="px-4 py-2 rounded-lg text-sm font-medium hover:bg-emerald-800 hover:text-amber-300 transition-all duration-300 {{ Route::currentRouteName() == 'prices' ? 'text-amber-400 bg-emerald-800' : 'text-gray-100' }}">Harga TBS</a>
                     <a href="{{ route('education') }}" class="px-4 py-2 rounded-lg text-sm font-medium hover:bg-emerald-800 hover:text-amber-300 transition-all duration-300 {{ Route::currentRouteName() == 'education' ? 'text-amber-400 bg-emerald-800' : 'text-gray-100' }}">Edukasi</a>
                     <a href="{{ route('news') }}" class="px-4 py-2 rounded-lg text-sm font-medium hover:bg-emerald-800 hover:text-amber-300 transition-all duration-300 {{ Route::currentRouteName() == 'news' ? 'text-amber-400 bg-emerald-800' : 'text-gray-100' }}">Berita</a>
+                    <a href="{{ route('about') }}" class="px-4 py-2 rounded-lg text-sm font-medium hover:bg-emerald-800 hover:text-amber-300 transition-all duration-300 {{ Route::currentRouteName() == 'about' ? 'text-amber-400 bg-emerald-800' : 'text-gray-100' }}">Tentang Kami</a>
                 </nav>
 
                 <!-- Mobile Menu Button -->
@@ -70,6 +71,7 @@
                 <a href="{{ route('prices') }}" class="block px-3 py-2.5 rounded-md text-base font-medium text-white hover:bg-emerald-800 hover:text-amber-300 transition duration-300 {{ Route::currentRouteName() == 'prices' ? 'bg-emerald-800 text-amber-400' : '' }}">Harga TBS</a>
                 <a href="{{ route('education') }}" class="block px-3 py-2.5 rounded-md text-base font-medium text-white hover:bg-emerald-800 hover:text-amber-300 transition duration-300 {{ Route::currentRouteName() == 'education' ? 'bg-emerald-800 text-amber-400' : '' }}">Edukasi</a>
                 <a href="{{ route('news') }}" class="block px-3 py-2.5 rounded-md text-base font-medium text-white hover:bg-emerald-800 hover:text-amber-300 transition duration-300 {{ Route::currentRouteName() == 'news' ? 'bg-emerald-800 text-amber-400' : '' }}">Berita</a>
+                <a href="{{ route('about') }}" class="block px-3 py-2.5 rounded-md text-base font-medium text-white hover:bg-emerald-800 hover:text-amber-300 transition duration-300 {{ Route::currentRouteName() == 'about' ? 'bg-emerald-800 text-amber-400' : '' }}">Tentang Kami</a>
             </div>
         </div>
     </header>
@@ -116,6 +118,11 @@
                         <li>
                             <a href="{{ route('news') }}" class="hover:text-amber-400 transition-colors duration-200 flex items-center">
                                 <span class="text-amber-500 mr-2">›</span> Berita Industri
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{ route('about') }}" class="hover:text-amber-400 transition-colors duration-200 flex items-center">
+                                <span class="text-amber-500 mr-2">›</span> Tentang Kami
                             </a>
                         </li>
                     </ul>
