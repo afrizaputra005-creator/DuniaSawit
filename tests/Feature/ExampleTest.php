@@ -2,18 +2,40 @@
 
 namespace Tests\Feature;
 
-// use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
 class ExampleTest extends TestCase
 {
     /**
-     * A basic test example.
+     * Test if all primary routes return a successful response.
      */
-    public function test_the_application_returns_a_successful_response(): void
+    public function test_home_page_returns_successful_response(): void
     {
-        $response = $this->get('/');
+        $response = $this->get(route('home'));
+        $response->assertStatus(200);
+    }
 
+    public function test_prices_page_returns_successful_response(): void
+    {
+        $response = $this->get(route('prices'));
+        $response->assertStatus(200);
+    }
+
+    public function test_education_page_returns_successful_response(): void
+    {
+        $response = $this->get(route('education'));
+        $response->assertStatus(200);
+    }
+
+    public function test_news_page_returns_successful_response(): void
+    {
+        $response = $this->get(route('news'));
+        $response->assertStatus(200);
+    }
+
+    public function test_about_page_returns_successful_response(): void
+    {
+        $response = $this->get(route('about'));
         $response->assertStatus(200);
     }
 }

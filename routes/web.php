@@ -17,3 +17,7 @@ Route::get('/edukasi', function () {
 Route::get('/berita', function () {
     return view('news');
 })->name('news');
+
+Route::get('/tentang', function () {
+    return view('about');
+})->name('about');
